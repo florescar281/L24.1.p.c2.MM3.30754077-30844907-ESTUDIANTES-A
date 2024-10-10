@@ -7,26 +7,26 @@ export class Cl_Estudiantes{
     }
 
     set nota(nota){
-        this.nota = nota;
+        this._nota = nota;
     }
 
     get nota(){
-        return this.nota;
+        return this._nota;
     }
 
     set cantidadMaterias(cantidadMaterias){ 
-        this.cantidadMaterias = cantidadMaterias;
+        this._cantidadMaterias = cantidadMaterias;
     }
 
     get cantidadMaterias(){ 
-        return this.cantidadMaterias;
+        return this._cantidadMaterias;
     }
 
     set nombre(nombre){ 
-        this.nombre = nombre;
+        this._nombre = nombre;
     }
 
     get nombre(){ 
-        return this.nombre;
+        return this._nombre;
     }
 }

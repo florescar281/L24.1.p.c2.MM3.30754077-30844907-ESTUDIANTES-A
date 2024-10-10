@@ -1,6 +1,6 @@
 import { Cl_Estudiantes } from "./Cl_Estudiantes.js";
 
-class Cl_NotaPromedio extends Cl_Estudiantes{
+export class Cl_NotaPromedio extends Cl_Estudiantes{
     constructor(nombre, nota, cantidadMaterias, beca){
         super(nombre, nota, cantidadMaterias, beca);
     }

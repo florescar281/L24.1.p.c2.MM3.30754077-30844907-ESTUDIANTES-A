@@ -12,17 +12,17 @@ export class Cl_Main {
 
         this.salida.innerHTML += `
         <p>
-            Nombre del estudiante: ${notaPromedio.nombre}
-            Acumulado de notas: ${notaPromedio.nota}
-            Cantidad de materias: ${notaPromedio.cantidadMaterias}
-            Nota promedio: ${notaPromedio.notaPromedio()}
-            Mary recibe una beca de ${notaPromedio.becado()}
+            Nombre del estudiante: ${notaPromedio.nombre}<br>
+            Acumulado de notas: ${notaPromedio.nota}<br>
+            Cantidad de materias: ${notaPromedio.cantidadMaterias}<br>
+            Nota promedio: ${notaPromedio.notaPromedio()}<br>
+            Mary recibe una beca de ${notaPromedio.Becado()}<br>
             <br>
-            <br> Nombre del estudiante: ${notaPromedio2.nombre}
-            Acumulado de notas: ${notaPromedio2.nota}
-            Cantidad de materias: ${notaPromedio2.cantidadMaterias}
-            Nota promedio: ${notaPromedio2.notaPromedio()}
-            Mary recibe una beca de ${notaPromedio2.becado()} 
+            <br> Nombre del estudiante: ${notaPromedio2.nombre}<br>
+            Acumulado de notas: ${notaPromedio2.nota}<br>
+            Cantidad de materias: ${notaPromedio2.cantidadMaterias}<br>
+            Nota promedio: ${notaPromedio2.notaPromedio()}<br>
+            Mary recibe una beca de ${notaPromedio2.Becado()} <br>
         </p>
         `
     }
